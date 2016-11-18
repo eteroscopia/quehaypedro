@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+
+        //UITabBar.appearance().barTintColor = UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.4)
+        UITabBar.appearance().tintColor = UIColor.lightGrayColor()
+        
+        //UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+      
         return true
     }
 
